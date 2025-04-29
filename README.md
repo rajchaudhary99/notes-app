@@ -1,12 +1,28 @@
-# React + Vite
+# React Notes App with LocalStorage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple note-taking application built with React that persists data in the browser's localStorage.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Create, view, and manage notes
+- Client-side data persistence using localStorage
+- Responsive design
+- Loading and error states
+- Minimal navigation between views
 
-## Expanding the ESLint configuration
+## Why LocalStorage?
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Simplicity**: Perfect for small apps without backend requirements
+- **Zero Latency**: Data is instantly available without network requests
+- **Offline Capability**: Works without internet connection
+- **Key Naming**: Used `react-notes-app` as the storage key to avoid conflicts with other apps
+
+## Setup & Installation
+
+1. Clone the repository:
+  git clone https://github.com/rajchaudhary99/notes-app.git
+   cd notes-app
+ Install dependencies:
+   npm install
+  Run the development server:
+   npm start
